@@ -1,15 +1,29 @@
 body{
-    background-color: lightblue;
+    background-color: bisque;
     padding: 2%;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
+}
+header{
+       text-align: center;
+}
+header > img{ 
+    
+    width: 50%;
+
 }
 
 nav {
     text-align: center;
+    background-color: lightgray;
+    padding: 5px;
+    /*margin: 10px;*/
 }
  
 .nav{
-    padding: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
     text-decoration: none;
     color: black;
     font-family: Helvetica, sans-serif;
@@ -18,7 +32,7 @@ nav {
 
 .nav:hover{
     background-color: #86c5da;
-    color: azure;
+    color: white;
     border-radius: 10px;
 }
 
@@ -26,11 +40,17 @@ h2{
     font-family: Helvetica, sans-serif;
 }
 p{
-    text-align: left; 
+    text-align: justify; 
   
 }
 p::first-letter{
     font-size: 80px;
     color: cadetblue;
     font-family:'Times New Roman', Times, serif
+}
+footer{
+    text-align: center;
+    background-color: lightgray;
+    padding: 5px;
+    margin: 10px;
 }
